@@ -6,13 +6,13 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 718px;
+    max-width: 80%;
   }
 }
 
 @media screen and (max-width: 360px) {
   .container {
-    width: 280px;
+    max-width: 280px;
   }
 
   .works {
