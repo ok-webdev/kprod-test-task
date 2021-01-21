@@ -1,9 +1,19 @@
+@import 'utils/vars';
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 6.5% 18%;
 }
 
 .container {
@@ -14,3 +24,5 @@
 @import 'blocks/_works';
 @import 'blocks/titles';
 @import 'blocks/cards';
+
+@import 'utils/media';
