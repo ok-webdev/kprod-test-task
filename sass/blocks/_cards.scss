@@ -19,10 +19,11 @@
     width: 100%;
     text-align: left;
     padding: 20px 10px 20px 30px;
+    transition: all .5s;
   }
 
   &__zoom {
-    display: none;
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,14 +31,15 @@
     padding: 17px;
     border-radius: 100%;
     background: #fff;
+    transition: all .5s;
   }
 
-  &:hover {
+  &:hover .card__descr{
     box-shadow: 0 2px 0 0 $secondary-color;
     color: $secondary-color;
   }
 
   &:hover .card__zoom {
-    display: block;
+    opacity: 1;
   }
 }
